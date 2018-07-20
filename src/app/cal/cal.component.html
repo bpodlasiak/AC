@@ -1,0 +1,22 @@
+<div id="container">
+
+<input [(ngModel)] = "num1" type="number" name="num1" >
+<input [(ngModel)] = "num2" type="number" name="num2" >
+<br>
+<div style="color:#38f"><b> Wynik: {{result}}</b></div> 
+<br>
+<button id="v" (click) = 'cal_substract()'  (click) = 'history1()' (click) = 'history()'> - </button>
+<button (click) = 'cal_add()'  (click) = 'history2()' (click) = 'history()'> + </button>
+<button (click) = 'cal_multiply()'  (click) = 'history3()' (click) = 'history()'> * </button>
+<button (click) = 'cal_divide() '  (click) = 'history4()' (click) = 'history()'> / </button>
+<br>
+<br>
+
+<br>
+<div id="heading">Historia:</div>
+  <div id="history">
+                            
+  <div class="test-first"></div>
+</div>
+
+</div>

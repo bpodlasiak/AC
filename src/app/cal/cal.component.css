@@ -1,0 +1,49 @@
+#container{
+    margin-top:100px;
+}
+button{
+    width:50px;
+    height:35px;
+    margin:20px;
+}
+input{
+    margin:10px;
+}
+
+
+#history
+{
+    margin:auto;
+    width:300px;
+    height: 400px;
+    background-color: gray;
+    opacity:0.7;
+}
+#heading
+{   
+    margin:auto;
+    width:300px;
+    box-shadow: 1px 1px 3px #666666;
+    background-color: rgb(200, 212, 100);
+    padding:10px;
+}
+
+.test-first {
+    width:280px;
+    background-color: gray;
+    padding:10px;
+    margin:20px 0;
+}
+.uber-element {
+    font-family:sans-serif;
+    font-size:15px;
+    margin-bottom:10px;
+    color:#000;
+    padding:10px;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgb(200, 212, 100);
+}
+.test-first .uber-element:last-of-type {
+    margin:0;
+    
+}
